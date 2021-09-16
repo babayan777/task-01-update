@@ -219,13 +219,16 @@ p span{
 }
 
 @media(max-width:550px){
-  .header-container{
+  /* .header-container{
     background-size: cover;
     background-position:0px 0px ;
     min-height: 350px;
+  } */
+  .header-container{
+    background-size: contain;
   }
 }
-
+/* 
 @media (max-width:452px){
   .header-container{
     min-height: 300px;
@@ -251,4 +254,4 @@ p span{
   .desc-about{
     font-size:12px;
   }
-}
+} */
